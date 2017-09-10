@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IPmachine:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IPmachine_jar</output-path>
+    <root id="archive" name="IPmachine.jar">
+      <element id="module-output" name="IPmachine" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/lib/groovy-all-2.4.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
