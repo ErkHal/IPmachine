@@ -1,5 +1,5 @@
 # IPmachine
-Simple command line tool that converts given IP address + prefix into network address. 
-Shows both binary and decimal representations and address class. Written in Java
+Simple command line tool that converts given IP address + prefix into network address and shows additional information about the 
+network. Shows both binary and decimal representations and address class. Written in Java
 
-![](https://i.gyazo.com/aa46a37f5500a45f3dee4ffdb5ee328c.png "Console screenshot")
+![](https://i.gyazo.com/cd6c138af97e386a4bc2033e38cf8e60.png "Console screenshot")
