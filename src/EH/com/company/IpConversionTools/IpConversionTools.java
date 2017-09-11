@@ -12,16 +12,18 @@ public class IpConversionTools {
 
     /**
      * Returns the calculated IP network address results in an array. Returns null if cannot convert.
-     * @param oldIpWithPrefix
+     * @param oldIpUntrimmed
      * @return Retrieve results from list:
      */
-     public static ArrayList<String> calculateAddress(String oldIpWithPrefix) {
+     public static ArrayList<String> calculateAddress(String oldIpUntrimmed) {
+
+         String oldIp = oldIpUntrimmed.trim();
 
          ArrayList<String> results = new ArrayList<String>();
 
          try {
 
-             String[] unTouchedIpArr = oldIpWithPrefix.split("(/)|(\\.)");
+             String[] unTouchedIpArr = oldIp.split("(/)|(\\.)");
              String[] ipOctets = {unTouchedIpArr[0], unTouchedIpArr[1], unTouchedIpArr[2], unTouchedIpArr[3]};
 
              //Take the fifth element in an array, because that is the prefix always.
